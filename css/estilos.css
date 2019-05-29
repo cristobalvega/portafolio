@@ -1,0 +1,24 @@
+body {
+	background-color: rgb(250, 255, 255);
+}
+
+h1 {
+	font-family: "Oswald", sans-serif;
+	background-color: rgba(45, 45, 45, 0.1);
+	padding: 10px;
+	font-size: 50px;
+}
+
+h2 {
+	font-family: "Roboto", sans-serif;
+	font-size: 40px;
+}
+
+p {
+	font-family: "Heebo", sans-serif;
+	font-size: 30px;
+}
+
+a {
+	background-color: rgb(173, 179, 241);
+}
