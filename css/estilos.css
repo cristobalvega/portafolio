@@ -2,6 +2,11 @@ body {
 	background-color: rgb(250, 255, 255);
 }
 
+header {
+	background-color: #1b2127;
+	color: white;
+}
+
 h1 {
 	font-family: "Oswald", sans-serif;
 	background-color: rgba(45, 45, 45, 0.1);
@@ -21,4 +26,9 @@ p {
 
 a {
 	background-color: rgb(173, 179, 241);
+}
+
+footer {
+	background-color: #1b2127;
+	color: white;
 }
