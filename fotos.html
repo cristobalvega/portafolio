@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <title>Pinterest</title>
+  <style>
+    h1 {
+      font-family: sans-serif;
+      padding: 100px;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 250px);
+      grid-gap: 5px;
+      justify-content: center;
+    }
+    .item {
+      border-radius: 5px;
+      padding: 10px;
+      background: #f2f2f2;
+    }
+
+    .item img {
+      max-width: 100%
+    }
+    .level-1 {
+      grid-row-end: span 1;
+    }
+
+    .level-2 {
+      grid-row-end: span 1;
+    }
+    .level-3 {
+      grid-row-end: span 1;
+    }
+  </style>
+</head>
+<body>
+  <h1>Centro de Quéretaro</h1>
+  <div class="container">
+    <div class="item level-1">
+      <img src="fotos_files/photo1.jpg" alt="">
+    </div>
+    <div class="item level-2">
+      <img src="fotos_files/photo2.jpg" alt="">
+    </div>
+    <div class="item level-3">
+      <img src="fotos_files/photo3.jpg" alt="">
+    </div>
+    <div class="item level-3">
+      <img src="fotos_files/photo4.jpg" alt="">
+    </div>
+  </div>
+
+
+</body></html>
