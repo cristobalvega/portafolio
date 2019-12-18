@@ -1,29 +1,135 @@
 <!DOCTYPE html>
-<head>
+<html lang="es">
+  <head>
     <meta charset="UTF-8" />
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"/>
-    <link rel="stylesheet" type="text/css" href="css/estilos.css">
-    <title>Hola soy Cristobal</title>
-</head>
-<body>
-    <header>Wilkomen.👋</header>
+    <title>Cristobal Vega</title>
+    <link rel="icon" type="image/png" href="images/logo-platzi-escuelajs.png" />
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <i class="icon-menu burger-button" id="burger-menu"></i>
+    <header class="header">
+      <div class="container">
+        <figure class="logo">
+          <img src="images/logo-platzi-escuelajs.png" height="50" alt="Logo de http://cristobalvega.me" />
+        </figure>
+        <nav class="menu">
+          <ol>
+            <li>
+              <a class="link" href="#portafolio">Portafolio</a>
+            </li>
+            <li>
+              <a class="link" href="#eventos">Experiencia</a>
+            </li>
+            <li>
+              <a class="link" href="#contacto">Trabajemos juntos</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </header>
     <section class="hero">
-        <div class="container">
-            <h1>Hola, mi nombre es Cristobal, <br> irreverente y me dicen el hombre de las mil manías. </h1>
-            <img class="hero-image" src="https://cristobalvega.me/images/me.jpg" width="427" height="320" alt="Imagen del sitio principal">
+      <div class="container">
+        <h1>
+          Hola! Soy <strong>Cristobal Vega</strong> <br/> Desarrollador  <strong>Javascript</strong> con <br> pasión por la <strong>enseñanza</strong>
+        </h1>
+        <img class="hero-image" src="images/platzi-conf-2019.jpg" width="500" height="300" alt="imagen principal del sitio">
+      </div>
+    </section>
+    <section id="portafolio" class="portfolio">
+      <div class="container">
+        <h2>Portafolio (Proyectos Destacados)</h2>
+      <article class="project">
+        <div class="project-details">
+          <h3 class="project-title">StephenKingManía</h3>
+          <h6 class="project-course">La escuela de JavaScript de Platzi</h6>
+          <p class="project-date"><small><strong>Fecha:</strong> 23/11/2019</small></p>
+          <p class="project-url"><small><strong>Puedes verlo en:</strong> http://stephenkingmania.com/</small></p>
+          <p class="project-description">Una página que busca construir una comunidad enfocada en el exitoso autor de novelas de terror.
+            <br /> Navega por la página y Ayudanos a crear la colección más completa de los libros de SthephenKing.
+          </p>
         </div>
+        <figure class="project-imageContainer">
+          <img class="project-image" width="500" src="images/stephenkingmania.png" alt="proyecto de la escuela de javascript">
+        </figure>
+      </article>
+      </div>
     </section>
-    <section class="portafolio">
-        <p>Me gusta el desarrollo web y esta página será donde compartiré mis ideas y proyectos.</p>
-        <p>Parte de mí trabajo de desarrollo esta en mi <a href="https://github.com/cristobalvega96" target="_blank">github.</a>
+    <div class="container">
+      <h2 class="event-list-title">Más sobre mi experiencia</h2>
+    </div>
+    <section id="eventos" class="event-list">
+      <div class="container">
+        <article class="event">
+          <figure class="event-imageContainer">
+            <img class="event-image" src="images/EscuelaJS.jpg" width="500" />
+          </figure>
+          <div class="event-detail">
+            <h3 class="event-title">La Escuela de JavaScript</h3>
+            <p class="event-description">La Escuela de JavaScript es un diplomado con el Stack MERN con expertos de la industria y el equipo de Ingeniería de Platzi, para convertirnos en  FullStack JavaScript.
+                Creamos aplicaciones con el stack MERN, desde la configuración del entorno de trabajo y maquetación de la app con HTML y CSS, integración con React, Mongo y Express hasta el despliegue en Digital Ocean.</p>
+            <a class="event-url" href="https://platzi.com/escuela-javascript/" target="_blank">Ver Carrera</a>
+          </div>
+        </article>
+      </div>
     </section>
-    <section class="contacto">
-        <p>Puedes encontrarme en <a href="https://twitter.com/cristobalvegamx" target="_blank">mi twitter</a> donde suelo compartir ideas y pelearme con amigos.</p>
-        <p>También tengo <a href="https://instagram.com/cristobalvegamx" target="_blank">mi instagram</a> donde comparto fotos con amigos y de objetos varios. </p>
+    <section id="contacto" class="contact">
+      <div class="container">
+        <form action="/suscripcion/" class="form-email">
+          <h3>¿Creamos algo juntos?</h3>
+          <input type="text" placeholder="Déjame tu email" id="email">
+          <button>Enviar</button>
+        </form>
+        <div class="social">
+          <a href="https://twitter.com/@uncristobalito" class="social-link twitter"></a>
+          <a href="https://platzi.com/@cristobalvega/" class="social-link facebook"></a>
+          <a href="https://github.com/cristobalvega" class="social-link github"></a>
+          <a href="https://instagram.com/@uncristobalito" class="social-link instagram"></a>
+        </div>
+      </div>
     </section>
-    <footer> See ya buddy.👋</footer>
-</body>
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <p>Curso de Desarrollo web online 2018 <img src="images/platzi.png" width="80" alt="platzi"></p>
+        </div>
+        <div>
+          <p>
+            Designed with ❤️ by <a href="https://twitter.com/thespianartist">@thespianartist</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // console.log('Hola mundo! es mi primera linea en JS');
+      const ipad = window.matchMedia('screen and (max-width: 767px)')
+      const menu = document.querySelector('.menu');
+      // console.log(menu);
+      const burgerButton = document.querySelector('#burger-menu');
+      // console.log(burgerButton);
+
+
+      ipad.addListener(validation)
+
+      function validation(event) {
+        if (event.matches) {
+          burgerButton.addEventListener('click', hideShow)
+        } else {
+          burgerButton.removeEventListener('click', hideShow)
+        }
+      }
+      validation(ipad);
+
+
+      function hideShow() {
+        if (menu.classList.contains('is-active')) {
+          menu.classList.remove('is-active');
+        } else {
+          menu.classList.add('is-active');
+        }
+      }
+    </script>
+  </body>
 </html>
