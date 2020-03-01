@@ -467,9 +467,12 @@ figure {
 }
 
 @media screen and (max-width: 480px) {
+  h1 .notJava {
+      font-size: 0.7em;
+  }
   h1 {
     font-size: 1.8em;
-    background-color: rgba(9, 25, 48, 0.562);
+    background-color: rgba(3, 0, 24, 0.56);
   }
   .project-details {
     font-size: 14px;
