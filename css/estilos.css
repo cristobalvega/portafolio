@@ -269,6 +269,10 @@ figure {
   background-image: url('../images/instagram.svg');
 }
 
+.social-link.goodreads {
+  background-image: url('../images/goodreads-logo.png');
+}
+
 
 .form-email input {
   border-color: gray;
