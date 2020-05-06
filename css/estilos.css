@@ -273,6 +273,10 @@ figure {
   background-image: url('../images/goodreads-logo.png');
 }
 
+.social-link.crunchyroll {
+  background-image: url('../images/crunchyroll.png');
+}
+
 
 .form-email input {
   border-color: gray;
